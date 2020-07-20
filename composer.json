@@ -1,0 +1,31 @@
+{
+  "name": "dmstr/yii2-analytics-core",
+  "description": "Super simple analytics module business logic",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "analytics",
+    "api"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Elias Luhr",
+      "email": "e.luhr@herzogkommunikation.de"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.*",
+    "ramsey/uuid": "^4.0",
+    "dmstr/yii2-web": "^0.4.2"
+  },
+  "require-dev": {
+    "schmunk42/yii2-giiant": "^0.10.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "eluhr\\analytics\\core": "src"
+    }
+  }
+}
